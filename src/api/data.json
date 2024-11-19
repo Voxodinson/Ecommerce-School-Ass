@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Modern Sofa",
+      "description": "A comfortable modern sofa with a sleek design, perfect for any living room.",
+      "price": 799.99,
+      "rating": 5,
+      "status": "New Arrival",
+      "type": "sofa",
+      "image_url": "https://i.pinimg.com/236x/76/e4/0e/76e40ed268e465fdd19ba16f56f0cbdd.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Wooden Coffee Table",
+      "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
+      "price": 249.99,
+      "rating": 4,
+      "status": "Best Seller",
+      "type": "sofa",
+      "image_url": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Velvet Armchair",
+      "description": "A luxurious velvet armchair that combines comfort with a touch of elegance.",
+      "price": 350,
+      "rating": 4,
+      "status": "Featured",
+      "type": "chair",
+      "image_url": "https://i.pinimg.com/236x/99/16/c3/9916c309f1df8bdc169605a511f95135.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Minimalist Bookshelf",
+      "description": "A tall, minimalist bookshelf to showcase books and decorative items.",
+      "price": 180,
+      "rating": 5,
+      "status": "New Arrival",
+      "type": "chair",
+      "image_url": "https://i.pinimg.com/236x/98/19/f3/9819f34e95388398d352bb82ea17e094.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Pendant Light Fixture",
+      "description": "An industrial-style pendant light fixture for kitchens or dining areas.",
+      "price": 90,
+      "rating": 4,
+      "status": "Best Seller",
+      "type": "chair",
+      "image_url": "https://i.pinimg.com/236x/98/19/f3/9819f34e95388398d352bb82ea17e094.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Abstract Wall Art",
+      "description": "A beautiful abstract canvas painting to add color and personality to your walls.",
+      "price": 120,
+      "rating": 5,
+      "status": "New Arrival",
+      "type": "lamp",
+      "image_url": "https://i.pinimg.com/236x/bb/10/c6/bb10c614ee298375b3e2e4dc5fb30c8b.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Round Wall Mirror",
+      "description": "A simple and elegant round wall mirror, ideal for entryways and bedrooms.",
+      "price": 75,
+      "rating": 4,
+      "status": "Featured",
+      "type": "chair",
+      "image_url": "https://i.pinimg.com/236x/fe/b6/eb/feb6eb08e7949646ef9ddb4736e81567.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Marble Dining Table",
+      "description": "A sleek marble dining table that brings sophistication to your dining area.",
+      "price": 1200,
+      "rating": 5,
+      "status": "Best Seller",
+      "type": "chair",
+      "image_url": "https://i.pinimg.com/236x/74/a0/18/74a0187a84b12bdb8e930f09e77d80fb.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Leather Recliner",
+      "description": "A plush leather recliner chair for ultimate relaxation.",
+      "price": 600,
+      "rating": 4,
+      "status": "Featured",
+      "image_url": "https://i.pinimg.com/736x/b4/04/1d/b4041deed6356ea5665f6ac1cb3dbca3.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Area Rug",
+      "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
+      "price": 150,
+      "rating": 4,
+      "status": "New Arrival",
+      "type": "desk",
+      "image_url": "https://i.pinimg.com/236x/af/c4/4b/afc44ba0f118800030870bf92ded23e2.jpg"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "4414",
+      "productId": "2",
+      "name": "Wooden Coffee Table",
+      "price": 249.99,
+      "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
+      "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "6cbe",
+      "productId": "3",
+      "name": "Velvet Armchair",
+      "price": 350,
+      "description": "A luxurious velvet armchair that combines comfort with a touch of elegance.",
+      "image": "https://i.pinimg.com/236x/99/16/c3/9916c309f1df8bdc169605a511f95135.jpg",
+      "quantity": 3
+    }
+  ]
+}

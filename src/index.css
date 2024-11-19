@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-li {
+  @apply hover:bg-blue-300 pl-3 py-1 rounded-lg hover:text-white;
+}
+.nav-li-a {
+  @apply cursor-pointer  pr-[560px] py-1;
+}
+.container-link-hover {
+  @apply flex items-center overflow-hidden pr-10;
+}
+.group-hover-icon {
+  @apply -ml-4 group-hover:ml-0 transition-all duration-200 ease-linear text-gray_color;
+}
