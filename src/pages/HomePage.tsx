@@ -43,7 +43,7 @@ const HomePage = () => {
             </div>
             <div className="group">
               <a
-                href=""
+                href="#provide"
                 className="flex gap-2 items-center group-hover:underline decoration-1  drop-shadow-lg"
               >
                 Down
@@ -64,7 +64,9 @@ const HomePage = () => {
       </div>
         <CardBrand />
         <HelpYourHouseLookModern />
-        <CustomerExperience />
+        <div id="provide">
+          <CustomerExperience/>
+        </div>
         <ProdictsFeathur />
     </div>
 

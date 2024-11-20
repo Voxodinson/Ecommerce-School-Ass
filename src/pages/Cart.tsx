@@ -112,14 +112,18 @@ const Cart = () => {
                 className="p-3 border border-gray-400 rounded-md grid grid-cols-6 items-center"
               >
                 <div className="w-[150px] h-[150px] rounded-md overflow-hidden">
-                  <img src={item.image} alt={item.name} />
+                  <img 
+                    src={item.image || 'path/to/default/image.jpg'} 
+                    alt={item.name} 
+                    className="object-cover w-full h-full" 
+                  />
                 </div>
                 <h4 className="font-semibold block">{item.name}</h4>
                 <p>Price: ${item.price}</p>
                 <div className="flex items-center">
                   <button
                     onClick={() => handleQuantityChange(item.id, "decrease")}
-                    className="w-[30px] h-[30px]  border border-gray-400 rounded-md"
+                    className="w-[30px] h-[30px] border border-gray-400 rounded-md"
                   >
                     -
                   </button>
@@ -152,19 +156,22 @@ const Cart = () => {
 
           {/* Summary Section */}
           <div className="w-[90%] flex items-end justify-end">
-            <div className="w-[50%] mt-6 p-4 border border-gray-400 rounded-md">
-              <h3 className="text-xl font-semibold mb-2">Cart Summary</h3>
-              <p className="flex justify-between">
-                Subtotal: <span className="">${totalPrice.toFixed(2)}</span>
-              </p>
-              <p className="flex justify-between">
-                Discount: <span className="text-green-500">${discount.toFixed(2)}</span>
-              </p>
-              <p className="flex justify-between">
-                Total: <span className="text-red-500">${finalTotal.toFixed(2)}</span>
-              </p>
-              <button className="bg-blue-400 py-2 w-full rounded-md text-white mt-3">
-                Checkout
+            <div className="w-1/2 p-4 border border-gray-400 rounded-md mt-6">
+              <span className="text-xl font-semibold">Cart Summary</span>
+              <ul className="*:border-b-[1px] *:border-gray-300">
+                
+                <li className="flex justify-between">
+                  <span>Subtotal:</span> <span>${totalPrice.toFixed(2)}</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>Discount:</span> <span className="text-green-500">${discount.toFixed(2)}</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>Total:</span> <span className="text-red-500">${finalTotal.toFixed(2)}</span>
+                </li>
+              </ul>
+              <button className="bg-blue-400 py-2 items-end w-full rounded-md text-white mt-3">
+                    Checkout
               </button>
             </div>
           </div>

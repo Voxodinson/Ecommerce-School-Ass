@@ -24,7 +24,7 @@ const NavigationBar = () => {
   }, []);
 
   return (
-    <div className="w-full h-[10vh] shadow-md flex items-center justify-around">
+    <div className="w-full h-[10vh] relative shadow-md flex items-center justify-around">
       <div className="flex items-center justify-between w-[90%]">
         <h3 className="font-thin text-[1.5rem]">
           Vox Decoration
@@ -53,6 +53,14 @@ const NavigationBar = () => {
             <span className=" absolute top-0 right-2 w-[20px] h-[20px] rounded-full bg-red-500 text-white flex items-center justify-center text-[.8rem]">
               {products.length}
             </span>
+          </NavLink>
+          <NavLink
+            to='/Login'
+            className="w-fit h-fit rounded-full ml-6">
+            <img 
+              className="w-[50px] h-[50px] hover:scale-110 transition-all ease-in-out duration-200"
+              src="https://i.pinimg.com/474x/76/f3/f3/76f3f3007969fd3b6db21c744e1ef289.jpg" 
+              alt=""/>
           </NavLink>
         </div>
       </div>

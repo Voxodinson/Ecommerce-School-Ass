@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 interface IProduct {
   id: number;
   name: string;
@@ -13,7 +14,6 @@ interface IProduct {
 
 const Products = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
-  const [activeIndexStatus, setActiveIndexStatus] = useState<number | null>(0);
   const [products, setProducts] = useState<IProduct[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<IProduct[]>([]);
   const [loading, setLoading] = useState(true);
@@ -26,11 +26,7 @@ const Products = () => {
     { label: "Lamp", clickFunc: () => filterByType("lamp") },
   ];
 
-  const filterButtonByStatus = [
-    { label: "New Arrival", clickFunc: () => filterByStatus("New Arrival") },
-    { label: "Best Seller", clickFunc: () => filterByStatus("Best Seller") },
-    { label: "Featured", clickFunc: () => filterByStatus("Featured") },
-  ];
+  
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -54,9 +50,7 @@ const Products = () => {
     setFilteredProducts(products.filter((product) => product.type === type));
   };
 
-  const filterByStatus = (status: string) => {
-    setFilteredProducts(products.filter((product) => product.status === status));
-  };
+  
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -85,33 +79,13 @@ const Products = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col items-center justify-start">
-          <div className="w-[90%] ">
-            <h3 className="font-semibold">Filters by Status</h3>
-          </div>
-          <div className="flex gap-3 *:py-1 *:px-4 *:rounded-md py-2">
-            {filterButtonByStatus.map((button, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setActiveIndexStatus(index);
-                  button.clickFunc();
-                }}
-                className={`capitalize border-[1px] border-gray-200 ${
-                  activeIndexStatus === index ? "bg-blue-300 text-white" : ""
-                }`}>
-                {button.label}
-              </button>
-            ))}
-          </div>
-        </div>
       </div>
       <div className="w-[90%] grid grid-cols-4 gap-3 mt-3 ">
       {filteredProducts.map((product) => (
         <Link 
           to={`/products/${product.id}`} 
           key={product.id} 
-          className="w-full h-fit flex flex-col border-[1px] relative border-gray-200 rounded-md overflow-hidden">
+          className="w-full h-fit flex flex-col border-[1px] relative border-gray-300 rounded-md overflow-hidden">
           <div className="w-full h-[250px] overflow-hidden">
             <img
               src={product.image_url}

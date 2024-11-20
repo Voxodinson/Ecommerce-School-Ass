@@ -28,7 +28,7 @@ const PaymentItem: payment[] = [
 ];
 const Footer = () => {
   return (
-    <div className="w-full h-fit flex flex-col items-center justify-center mt-[30px] pt-6 border-t-[1px] border-gray-200 ">
+    <div className="w-full h-fit flex flex-col items-center justify-center mt-[30px] pt-6 border-t-[1px] border-gray-300 ">
       <div className="w-[90%] h-full flex items-start justify-between   ">
         <div className="w-fit h-fit items-center justify-center">
           <div className=" flex items-center justify-center flex-col">

@@ -5,7 +5,7 @@ import kitchen from "../assets/cardImage/blackKitchen.jpg";
 import { NavLink } from "react-router-dom";
 const ProductsFeathur = () => {
   return (
-    <div className="w-full h-fit flex flex-col gap-[1rem] items-center justify-center py-[55px]   border-b-[1px]">
+    <div className="w-full h-fit flex flex-col gap-[1rem] items-center justify-center py-[55px]">
       <div className="w-[90%] h-fit flex flex-col md:flex-row gap-[1rem]">
         <div className="w-full md:w-[65%] h-[300px]  relative ">
           <div className="w-full h-full  absolute top-0 left-0 z-10">

@@ -7,7 +7,10 @@ import NewArrival from "./pages/NewArrival";
 import Contact from "./pages/Contact";
 import BestSeller from "./pages/BestSeller";
 import ProductDetail from "./pages/ProductDetail";
-import Cart from './pages/Cart'
+import Cart from "./pages/Cart";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
+import Checkout from "./pages/Checkout";
 function App() {
   return (
     <Router>
@@ -21,6 +24,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/Signup" element={<SignUp/>}/>
+          <Route path="/Checkout" element={<Checkout/>}/>
         </Routes>
         <Footer/>
       </div>
