@@ -14,3 +14,15 @@
 .group-hover-icon {
   @apply -ml-4 group-hover:ml-0 transition-all duration-200 ease-linear text-gray_color;
 }
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d1d5db;
+}

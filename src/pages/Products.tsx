@@ -18,7 +18,7 @@ const Products = () => {
   const [filteredProducts, setFilteredProducts] = useState<IProduct[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-
+  
   const filterButton = [
     { label: "All", clickFunc: () => setFilteredProducts(products) },
     { label: "Sofa", clickFunc: () => filterByType("sofa") },

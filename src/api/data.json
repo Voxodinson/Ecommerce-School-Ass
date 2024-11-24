@@ -36,7 +36,7 @@
       "description": "A tall, minimalist bookshelf to showcase books and decorative items.",
       "price": 180,
       "rating": 5,
-      "status": "New Arrival",
+      "status": "Featured",
       "type": "chair",
       "image_url": "https://i.pinimg.com/236x/98/19/f3/9819f34e95388398d352bb82ea17e094.jpg"
     },
@@ -100,7 +100,7 @@
       "image_url": "https://i.pinimg.com/236x/af/c4/4b/afc44ba0f118800030870bf92ded23e2.jpg"
     },
     {
-      "id": "10",
+      "id": "11",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -110,7 +110,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/474x/1d/d6/49/1dd64948c99eacfe6b0f19fa4a10b3b2.jpg"
     },
     {
-      "id": "10",
+      "id": "12",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -120,7 +120,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/236x/17/6a/90/176a90dd364b74244e7c0670d1514f6a.jpg"
     },
     {
-      "id": "10",
+      "id": "13",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -130,7 +130,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/474x/1d/d6/49/1dd64948c99eacfe6b0f19fa4a10b3b2.jpg"
     },
     {
-      "id": "10",
+      "id": "14",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -140,7 +140,7 @@
       "image_url": "https://i.pinimg.com/236x/b7/e1/f9/b7e1f9bac5a4e8a08543635b5faa7e8d.jpg"
     },
     {
-      "id": "10",
+      "id": "15",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -150,7 +150,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/236x/31/68/36/316836d2b5e998a594b3d5d6021498bd.jpg"
     },
     {
-      "id": "10",
+      "id": "16",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -160,7 +160,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/736x/99/e9/9f/99e99fefce3cf2d70412ea64705a2e1b.jpg"
     },
     {
-      "id": "10",
+      "id": "17",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -170,7 +170,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/236x/bb/bd/31/bbbd31857e869d2c3593141645bd695f.jpg"
     },
     {
-      "id": "10",
+      "id": "18",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -180,7 +180,7 @@
       "image_url": "https://i.pinimg.com/enabled_lo_mid/474x/ef/f3/f5/eff3f51f3355093f40740c23ea706fc8.jpg"
     },
     {
-      "id": "10",
+      "id": "19",
       "name": "Area Rug",
       "description": "A soft area rug with a beautiful geometric pattern, perfect for any room.",
       "price": 150,
@@ -192,21 +192,21 @@
   ],
   "cartItems": [
     {
-      "id": "76aa",
+      "id": "8fc1",
       "productId": "2",
       "name": "Wooden Coffee Table",
       "price": 249.99,
       "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
       "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
-      "quantity": 6
+      "quantity": 8
     },
     {
-      "id": "e03c",
-      "productId": "3",
-      "name": "Velvet Armchair",
-      "price": 350,
-      "description": "A luxurious velvet armchair that combines comfort with a touch of elegance.",
-      "image": "https://i.pinimg.com/236x/99/16/c3/9916c309f1df8bdc169605a511f95135.jpg",
+      "id": "83ec",
+      "productId": "9",
+      "name": "Leather Recliner",
+      "price": 600,
+      "description": "A plush leather recliner chair for ultimate relaxation.",
+      "image": "https://i.pinimg.com/736x/b4/04/1d/b4041deed6356ea5665f6ac1cb3dbca3.jpg",
       "quantity": 1
     }
   ],
