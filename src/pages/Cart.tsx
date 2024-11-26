@@ -27,7 +27,7 @@ interface ICartItem {
 }
 
 const Cart = () => {
-  const [cartItems, setCartItems] = useState<ICartItem[]>([]);
+  let [cartItems, setCartItems] = useState<ICartItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedLogo, setSelectedLogo] = useState(null);
@@ -137,7 +137,7 @@ const Cart = () => {
       setError(err.message);
     }
   };
-
+  
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -483,7 +483,7 @@ const Cart = () => {
                       <span className="text-[.8rem]">I have read and agree to all Terms and Conditions.</span>
                     </div>
                     <div className="w-full flex items-end justify-end mt-4">
-                      <button 
+                      <button
                         className="py-2 px-4 bg-blue-400 text-white rounded-md">
                         Purchase Now
                       </button>

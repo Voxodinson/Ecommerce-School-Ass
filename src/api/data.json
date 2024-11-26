@@ -192,21 +192,48 @@
   ],
   "cartItems": [
     {
-      "id": "8fc1",
+      "id": "3f16",
       "productId": "2",
       "name": "Wooden Coffee Table",
       "price": 249.99,
       "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
       "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
-      "quantity": 8
+      "quantity": 1
     },
     {
-      "id": "83ec",
-      "productId": "9",
-      "name": "Leather Recliner",
-      "price": 600,
-      "description": "A plush leather recliner chair for ultimate relaxation.",
-      "image": "https://i.pinimg.com/736x/b4/04/1d/b4041deed6356ea5665f6ac1cb3dbca3.jpg",
+      "id": "a1f2",
+      "productId": "2",
+      "name": "Wooden Coffee Table",
+      "price": 249.99,
+      "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
+      "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "d957",
+      "productId": "2",
+      "name": "Wooden Coffee Table",
+      "price": 249.99,
+      "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
+      "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "817d",
+      "productId": "2",
+      "name": "Wooden Coffee Table",
+      "price": 249.99,
+      "description": "A rustic coffee table made from reclaimed wood, adding charm to any space.",
+      "image": "https://i.pinimg.com/236x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "561b",
+      "productId": "6",
+      "name": "Abstract Wall Art",
+      "price": 120,
+      "description": "A beautiful abstract canvas painting to add color and personality to your walls.",
+      "image": "https://i.pinimg.com/236x/bb/10/c6/bb10c614ee298375b3e2e4dc5fb30c8b.jpg",
       "quantity": 1
     }
   ],
@@ -214,6 +241,12 @@
     {
       "id": "8472",
       "username": "Vox Odinson",
+      "email": "voxodinson@gmail.com",
+      "password": "vox100503"
+    },
+    {
+      "id": "26d3",
+      "username": "voxodinson@gmail.com",
       "email": "voxodinson@gmail.com",
       "password": "vox100503"
     }

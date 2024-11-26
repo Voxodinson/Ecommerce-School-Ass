@@ -118,7 +118,6 @@ const ProductDetail = () => {
                 +
               </button>
             </div>
-
             <button
               onClick={addToCart}
               className="py-1 px-4 rounded-md bg-blue-300 w-[200px] text-white"

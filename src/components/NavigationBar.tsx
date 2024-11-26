@@ -34,16 +34,24 @@ const NavigationBar = () => {
   const [cartItems, setCartItems] = useState([])
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch("http://localhost:5000/products");
-      const resCartItems = await fetch("http://localhost:5000/cartItems");
-      if (!response.ok) throw new Error("Network response was not ok");
-      const data = await response.json();
-      const cartData = await resCartItems.json();
-      setProducts(data);
-      setCartItems(cartData)
-    };
+      try {
+        const response = await fetch("http://localhost:5000/products");
+        const resCartItems = await fetch("http://localhost:5000/cartItems");
 
+        if (!response.ok || !resCartItems.ok)
+          throw new Error("Network response was not ok");
+
+        const data = await response.json();
+        const cartData = await resCartItems.json();
+        setProducts(data);
+        setCartItems(cartData);
+      } catch (error) {
+        console.error("Failed to fetch data:", error);
+      }
+    };
     fetchProducts();
+    const interval = setInterval(fetchProducts, 500); 
+    return () => clearInterval(interval); 
   }, []);
 
   const searchItems = searchTerm
